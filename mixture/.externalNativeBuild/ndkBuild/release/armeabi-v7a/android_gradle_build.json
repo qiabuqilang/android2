@@ -1,0 +1,48 @@
+{
+  "buildFiles": [
+    "D:\\Code\\android2\\mixture\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Develop\\Android\\NDK\\android-ndk-r17c-windows-x86_64\\android-ndk-r17c\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\android2\\mixture\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/Code/android2/mixture/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\Code\\android2\\mixture\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "jni_mix-release-armeabi-v7a": {
+      "buildCommand": "C:\\Develop\\Android\\NDK\\android-ndk-r17c-windows-x86_64\\android-ndk-r17c\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\android2\\mixture\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/Code/android2/mixture/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\Code\\android2\\mixture\\build\\intermediates\\ndkBuild\\release\\lib D:/Code/android2/mixture/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libjni_mix.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "jni_mix",
+      "files": [
+        {
+          "src": "D:\\Code\\android2\\mixture\\src\\main\\jni\\aes.cpp",
+          "flags": "-gcc-toolchain C:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi16 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -fno-exceptions -fno-rtti -mthumb -Os -DNDEBUG -IC:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sources/cxx-stl/system/include -IC:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sources/cxx-stl/llvm-libc++abi/include -IC:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sources/android/support/include -ID:/Code/android2/mixture/src/main/jni -DANDROID -D__ANDROID_API__\u003d16 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -fexceptions -fexceptions --sysroot C:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sysroot -isystem C:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "D:\\Code\\android2\\mixture\\src\\main\\jni\\find_name.cpp",
+          "flags": "-gcc-toolchain C:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi16 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -fno-exceptions -fno-rtti -mthumb -Os -DNDEBUG -IC:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sources/cxx-stl/system/include -IC:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sources/cxx-stl/llvm-libc++abi/include -IC:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sources/android/support/include -ID:/Code/android2/mixture/src/main/jni -DANDROID -D__ANDROID_API__\u003d16 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -fexceptions -fexceptions --sysroot C:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sysroot -isystem C:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "D:\\Code\\android2\\mixture\\src\\main\\jni\\get_cpu.cpp",
+          "flags": "-gcc-toolchain C:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi16 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -fno-exceptions -fno-rtti -mthumb -Os -DNDEBUG -IC:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sources/cxx-stl/system/include -IC:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sources/cxx-stl/llvm-libc++abi/include -IC:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sources/android/support/include -ID:/Code/android2/mixture/src/main/jni -DANDROID -D__ANDROID_API__\u003d16 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -fexceptions -fexceptions --sysroot C:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sysroot -isystem C:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "D:\\Code\\android2\\mixture\\src\\main\\jni\\get_decrypt.cpp",
+          "flags": "-gcc-toolchain C:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi16 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -fno-exceptions -fno-rtti -mthumb -Os -DNDEBUG -IC:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sources/cxx-stl/system/include -IC:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sources/cxx-stl/llvm-libc++abi/include -IC:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sources/android/support/include -ID:/Code/android2/mixture/src/main/jni -DANDROID -D__ANDROID_API__\u003d16 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -fexceptions -fexceptions --sysroot C:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sysroot -isystem C:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "D:\\Code\\android2\\mixture\\src\\main\\jni\\get_encrypt.cpp",
+          "flags": "-gcc-toolchain C:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi16 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -fno-exceptions -fno-rtti -mthumb -Os -DNDEBUG -IC:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sources/cxx-stl/system/include -IC:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sources/cxx-stl/llvm-libc++abi/include -IC:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sources/android/support/include -ID:/Code/android2/mixture/src/main/jni -DANDROID -D__ANDROID_API__\u003d16 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -fexceptions -fexceptions --sysroot C:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sysroot -isystem C:/Develop/Android/NDK/android-ndk-r17c-windows-x86_64/android-ndk-r17c/build//../sysroot/usr/include/arm-linux-androideabi"
+        }
+      ],
+      "output": "D:\\Code\\android2\\mixture\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libjni_mix.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cppCompilerExecutable": "C:\\Develop\\Android\\NDK\\android-ndk-r17c-windows-x86_64\\android-ndk-r17c\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android2.iml" filepath="$PROJECT_DIR$/android2.iml" />
       <module fileurl="file://$PROJECT_DIR$/animation/animation.iml" filepath="$PROJECT_DIR$/animation/animation.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/custom/custom.iml" filepath="$PROJECT_DIR$/custom/custom.iml" />
@@ -13,7 +13,6 @@
       <module fileurl="file://$PROJECT_DIR$/junior/junior.iml" filepath="$PROJECT_DIR$/junior/junior.iml" />
       <module fileurl="file://$PROJECT_DIR$/media/media.iml" filepath="$PROJECT_DIR$/media/media.iml" />
       <module fileurl="file://$PROJECT_DIR$/middle/middle.iml" filepath="$PROJECT_DIR$/middle/middle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mixture/mixture.iml" filepath="$PROJECT_DIR$/mixture/mixture.iml" />
       <module fileurl="file://$PROJECT_DIR$/network/network.iml" filepath="$PROJECT_DIR$/network/network.iml" />
       <module fileurl="file://$PROJECT_DIR$/performance/performance.iml" filepath="$PROJECT_DIR$/performance/performance.iml" />
       <module fileurl="file://$PROJECT_DIR$/senior/senior.iml" filepath="$PROJECT_DIR$/senior/senior.iml" />
